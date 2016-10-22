@@ -23,8 +23,10 @@ var Counter = React.createClass({
     },
 
     render: function(){
+    	// L'image est effectivement un message subliminal !
     	return (
 	        <div className="counter">
+	        	<img src='http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Apps-preferences-web-browser-cookies-icon.png' alt='coockies'/>
 	        	<h1>{this.state.count}</h1>
 	       		<button className ="clicker" type="button" onClick={this.incrementCount}>Increment</button>
 	        </div>
