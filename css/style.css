@@ -1,0 +1,31 @@
+body { 
+  background: #9b59b6;
+  padding: 40px; 
+}
+.counter {
+  width: 300px;
+  margin: auto;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  
+  h1 {
+    margin: 0;
+    padding: 20px;
+    font-size: 36px;
+  }
+  
+  
+}
+
+.clicker {
+    background: #fff;
+    border: 0;
+    padding: 10px;
+    width: 50%;
+    outline: none;
+    border-radius: 3px;
+    color:  #9b59b6;
+    font-weight: bold;
+     cursor:  pointer;
+  }
