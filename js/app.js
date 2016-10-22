@@ -26,7 +26,7 @@ var Counter = React.createClass({
 	        <div className="counter">
 	        	<img src='http://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/256/Apps-preferences-web-browser-cookies-icon.png' alt='coockies'/>
 	        	<h1>{this.state.count}</h1>
-	       		<button className ="clicker" type="button" onClick={this.incrementCount}>Increment</button>
+	       		<button className ="clicker" type="button" onClick={this.incrementCount}>Click</button>
 	        </div>
     	);
     }
