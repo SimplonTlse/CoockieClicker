@@ -1,19 +1,5 @@
 var Counter = React.createClass({
- 
-	incrementCount: function(){
-	    this.setState({
-	    	count: this.state.count + 1
-	    });
-
-	    this.setState({
-	        random: Math.floor(Math.random()*(this.state.tab.length - 0))
-	    });
-	 
-	    if(this.state.count !== 0 && this.state.count%10 === 0){
-	      	alert(this.state.tab[this.state.random]);
-	     }
-	},
-
+ 	
  	getInitialState: function(){
     	return {
 	        count: 0,
@@ -21,6 +7,18 @@ var Counter = React.createClass({
 	        random : null,
         }
     },
+    
+	incrementCount: function(){
+	    this.setState({
+	    	count: this.state.count + 1,
+	    	random: Math.floor(Math.random()*(this.state.tab.length - 0))
+	    });
+	 
+	    if(this.state.count !== 0 && this.state.count%10 === 0){
+	      	alert(this.state.tab[this.state.random]);
+	     }
+	},
+
 
     render: function(){
     	// L'image est effectivement un message subliminal !
